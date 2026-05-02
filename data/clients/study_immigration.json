@@ -1,0 +1,30 @@
+{
+  "client_id": "study_immigration",
+  "client_name": "Study Immigration Content System",
+  "business_type": "education_immigration_consulting",
+  "target_audience": [
+    "international students",
+    "study permit applicants",
+    "parents",
+    "PGWP applicants",
+    "older students",
+    "refused applicants"
+  ],
+  "primary_goals": [
+    "lead intelligence",
+    "reddit community publishing",
+    "content angle generation",
+    "comment feedback monitoring"
+  ],
+  "forbidden_actions": [
+    "auto_dm",
+    "mass_comment",
+    "auto_vote",
+    "vote_manipulation",
+    "multi_account_spam",
+    "duplicate_crosspost",
+    "captcha_bypass",
+    "fingerprint_evasion",
+    "automatic_account_creation"
+  ]
+}

@@ -1,0 +1,249 @@
+[
+  {
+    "topic_id": "study_permit_refusal",
+    "topic_name": "Canada Study Permit Refusal",
+    "keywords": [
+      "study permit refused",
+      "Canada student visa refused",
+      "purpose of visit refusal",
+      "financial reason refusal",
+      "reapply after refusal",
+      "SDS refused",
+      "second refusal study permit"
+    ],
+    "lead_signal_rules": {
+      "high": [
+        "refused",
+        "rejected",
+        "reapply",
+        "urgent",
+        "deadline",
+        "don't know what to do",
+        "second refusal",
+        "financial reason",
+        "purpose of visit"
+      ],
+      "medium": [
+        "PGWP",
+        "college",
+        "university",
+        "proof of funds",
+        "study plan",
+        "program choice"
+      ],
+      "low": [
+        "general discussion",
+        "news",
+        "policy debate"
+      ]
+    }
+  },
+  {
+    "topic_id": "pgwp_risk",
+    "topic_name": "PGWP Eligibility and Program Risk",
+    "keywords": [
+      "PGWP eligibility",
+      "Canada college PGWP",
+      "program not eligible for PGWP",
+      "private college PGWP",
+      "change program PGWP risk"
+    ],
+    "lead_signal_rules": {
+      "high": [
+        "not eligible",
+        "already enrolled",
+        "program risk",
+        "lost PGWP",
+        "need help"
+      ],
+      "medium": [
+        "school choice",
+        "program choice",
+        "college",
+        "university"
+      ],
+      "low": [
+        "general PGWP discussion",
+        "policy news"
+      ]
+    }
+  },
+  {
+    "topic_id": "older_student_risk",
+    "topic_name": "Older Student Study Permit Risk",
+    "keywords": [
+      "older student study permit Canada",
+      "35 years old study permit",
+      "mature student visa Canada",
+      "study permit age gap",
+      "Canada college after 30 visa",
+      "career gap study permit"
+    ],
+    "lead_signal_rules": {
+      "high": [
+        "35",
+        "40",
+        "older student",
+        "mature student",
+        "age gap",
+        "career gap",
+        "refused",
+        "purpose of visit",
+        "family ties"
+      ],
+      "medium": [
+        "college",
+        "program choice",
+        "career change",
+        "study plan",
+        "work experience"
+      ],
+      "low": [
+        "general age discussion",
+        "success story",
+        "policy debate"
+      ]
+    }
+  },
+  {
+    "topic_id": "proof_of_funds",
+    "topic_name": "Proof of Funds and Financial Documentation",
+    "keywords": [
+      "Canada study permit proof of funds",
+      "financial reason refusal",
+      "bank statement study permit",
+      "sponsor funds study permit",
+      "large deposit visa refusal",
+      "source of funds student visa"
+    ],
+    "lead_signal_rules": {
+      "high": [
+        "financial reason",
+        "proof of funds",
+        "source of funds",
+        "large deposit",
+        "bank statement",
+        "sponsor",
+        "refused",
+        "rejected"
+      ],
+      "medium": [
+        "tuition",
+        "living expenses",
+        "gic",
+        "loan",
+        "parents sponsor"
+      ],
+      "low": [
+        "general budgeting",
+        "cost of living",
+        "news"
+      ]
+    }
+  },
+  {
+    "topic_id": "school_program_choice",
+    "topic_name": "School and Program Choice Risk",
+    "keywords": [
+      "Canada college program choice visa",
+      "study permit program mismatch",
+      "diploma after degree Canada visa",
+      "private college risk Canada",
+      "change program study permit",
+      "study plan program logic"
+    ],
+    "lead_signal_rules": {
+      "high": [
+        "program mismatch",
+        "diploma after degree",
+        "private college",
+        "program risk",
+        "refused",
+        "purpose of visit",
+        "change program"
+      ],
+      "medium": [
+        "school choice",
+        "college",
+        "university",
+        "career path",
+        "study plan"
+      ],
+      "low": [
+        "ranking",
+        "campus life",
+        "general comparison"
+      ]
+    }
+  },
+  {
+    "topic_id": "family_application_risk",
+    "topic_name": "Family, Spouse, and Children Application Risk",
+    "keywords": [
+      "study permit spouse Canada",
+      "student visa with family Canada",
+      "bring spouse on study permit",
+      "children study permit Canada",
+      "spouse open work permit student",
+      "family ties study permit refusal"
+    ],
+    "lead_signal_rules": {
+      "high": [
+        "spouse",
+        "children",
+        "family ties",
+        "open work permit",
+        "refused",
+        "rejected",
+        "dependent",
+        "urgent"
+      ],
+      "medium": [
+        "married",
+        "kids",
+        "family application",
+        "proof of relationship"
+      ],
+      "low": [
+        "general family discussion",
+        "moving advice",
+        "housing"
+      ]
+    }
+  },
+  {
+    "topic_id": "post_refusal_reapply",
+    "topic_name": "Reapply Strategy After Refusal",
+    "keywords": [
+      "reapply after study permit refusal",
+      "GCMS notes study permit refusal",
+      "second study permit refusal",
+      "Canada visa refused reapply",
+      "study permit reconsideration",
+      "what to do after visa refusal"
+    ],
+    "lead_signal_rules": {
+      "high": [
+        "reapply",
+        "second refusal",
+        "gcms",
+        "reconsideration",
+        "deadline",
+        "urgent",
+        "don't know what to do",
+        "refused twice"
+      ],
+      "medium": [
+        "new sop",
+        "study plan",
+        "financial documents",
+        "program choice"
+      ],
+      "low": [
+        "general refusal discussion",
+        "processing time",
+        "news"
+      ]
+    }
+  }
+]

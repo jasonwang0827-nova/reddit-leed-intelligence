@@ -1,0 +1,20 @@
+{
+  "client_id": "study_immigration",
+  "reddit_search": {
+    "sort": "new",
+    "time": "year",
+    "default_limit": 30,
+    "user_agent": "reddit-community-intelligence-v0.1"
+  },
+  "compliance": {
+    "max_risk_score_for_review": 0.55,
+    "max_similarity_to_recent_posts": 0.72,
+    "require_manual_review": true,
+    "allow_approved_auto_publish": false
+  },
+  "publishing": {
+    "default_publish_mode": "browser_assist",
+    "auto_click_post": false,
+    "require_human_final_click": true
+  }
+}

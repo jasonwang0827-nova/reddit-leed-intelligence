@@ -1,0 +1,27 @@
+{
+  "name": "reddit-leed-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "reddit:search": "tsx scripts/dev-reddit-search.ts",
+    "reddit:analyze": "tsx scripts/dev-reddit-analyze-leads.ts",
+    "reddit:drafts": "tsx scripts/dev-reddit-generate-drafts.ts",
+    "reddit:compliance": "tsx scripts/dev-reddit-run-compliance.ts",
+    "reddit:queue": "tsx scripts/dev-reddit-review-queue.ts",
+    "reddit:browser-assist": "tsx scripts/dev-reddit-browser-assist-publish.ts",
+    "reddit:comments": "tsx scripts/dev-reddit-monitor-comments.ts",
+    "reddit:report": "tsx scripts/dev-reddit-daily-report.ts",
+    "ui": "tsx server/uiServer.ts",
+    "reddit:pipeline": "npm run reddit:search -- --client_id study_immigration --topic study_permit_refusal --limit 30 && npm run reddit:analyze -- --client_id study_immigration && npm run reddit:drafts -- --client_id study_immigration --topic study_permit_refusal && npm run reddit:compliance -- --client_id study_immigration && npm run reddit:queue -- --client_id study_immigration",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.52.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3"
+  }
+}

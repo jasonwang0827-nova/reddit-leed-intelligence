@@ -1,0 +1,392 @@
+[
+  {
+    "content_id": "reddit_post_20260502_001",
+    "checks": {
+      "duplicate_content": true,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": true,
+      "similarity_to_recent_posts": 1,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.7,
+    "decision": "compliance_failed",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:43:34.777Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_002",
+    "checks": {
+      "duplicate_content": true,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": true,
+      "similarity_to_recent_posts": 1,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.7,
+    "decision": "compliance_failed",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:43:34.778Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_003",
+    "checks": {
+      "duplicate_content": true,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": true,
+      "similarity_to_recent_posts": 1,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.7,
+    "decision": "compliance_failed",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:43:34.778Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_004",
+    "checks": {
+      "duplicate_content": true,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": true,
+      "similarity_to_recent_posts": 1,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.7,
+    "decision": "compliance_failed",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:43:34.778Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_005",
+    "checks": {
+      "duplicate_content": true,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": true,
+      "similarity_to_recent_posts": 1,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.7,
+    "decision": "compliance_failed",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:43:34.779Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_proof_of_funds_001",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.37,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.417Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_proof_of_funds_002",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.25,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.414Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_proof_of_funds_003",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.28,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.416Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_proof_of_funds_004",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.32,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.416Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_proof_of_funds_005",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.37,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.417Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_study_permit_refusal_003",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.27,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.418Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_study_permit_refusal_004",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.38,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.418Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_study_permit_refusal_005",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.23,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.419Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_study_permit_refusal_001",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.38,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.419Z"
+  },
+  {
+    "content_id": "reddit_post_20260502_study_permit_refusal_002",
+    "checks": {
+      "duplicate_content": false,
+      "too_promotional": false,
+      "contains_contact_info": false,
+      "contains_wechat": false,
+      "contains_phone_number": false,
+      "contains_email": false,
+      "contains_direct_sales_cta": false,
+      "subreddit_rule_conflict": false,
+      "legal_advice_risk": "high",
+      "ai_generated_tone_risk": "low",
+      "cross_subreddit_duplicate_risk": false,
+      "similarity_to_recent_posts": 0.34,
+      "posting_frequency_risk": "low"
+    },
+    "risk_score": 0.2,
+    "decision": "ready_for_review",
+    "notes": [
+      "No direct promotion detected",
+      "No contact information included",
+      "Soft disclaimer included"
+    ],
+    "checked_at": "2026-05-02T21:45:20.417Z"
+  }
+]

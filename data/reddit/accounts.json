@@ -1,0 +1,27 @@
+[
+  {
+    "account_id": "reddit_study_01",
+    "username": "YOUR_REDDIT_USERNAME",
+    "role": "main_publishing_account",
+    "status": "active",
+    "browser_profile_path": "data/reddit/browser-profiles/reddit_study_01",
+    "allowed_actions": [
+      "search",
+      "draft",
+      "browser_assist_publish",
+      "comment_monitor"
+    ],
+    "forbidden_actions": [
+      "auto_dm",
+      "auto_vote",
+      "mass_post",
+      "captcha_bypass",
+      "fingerprint_evasion"
+    ],
+    "daily_post_limit": 1,
+    "weekly_post_limit": 3,
+    "cooldown_hours": 24,
+    "manual_review_required": true,
+    "auto_click_post": false
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_proof_of_funds_001",
+    "content_id": "reddit_post_20260502_proof_of_funds_001",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "browser_assist_ready",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": "jason",
+      "approved_at": "2026-05-02T21:45:24.110Z"
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_proof_of_funds_002",
+    "content_id": "reddit_post_20260502_proof_of_funds_002",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_proof_of_funds_003",
+    "content_id": "reddit_post_20260502_proof_of_funds_003",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_proof_of_funds_004",
+    "content_id": "reddit_post_20260502_proof_of_funds_004",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_study_permit_refusal_001",
+    "content_id": "reddit_post_20260502_study_permit_refusal_001",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_study_permit_refusal_002",
+    "content_id": "reddit_post_20260502_study_permit_refusal_002",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_study_permit_refusal_003",
+    "content_id": "reddit_post_20260502_study_permit_refusal_003",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_study_permit_refusal_004",
+    "content_id": "reddit_post_20260502_study_permit_refusal_004",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_study_permit_refusal_005",
+    "content_id": "reddit_post_20260502_study_permit_refusal_005",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  },
+  {
+    "task_id": "reddit_publish_20260502_reddit_post_20260502_proof_of_funds_005",
+    "content_id": "reddit_post_20260502_proof_of_funds_005",
+    "account_id": "reddit_study_01",
+    "target_subreddit": "ImmigrationCanada",
+    "publish_mode": "browser_assist",
+    "scheduled_time": null,
+    "status": "pending_review",
+    "requires_manual_approval": true,
+    "auto_click_post": false,
+    "approval": {
+      "approved_by": null,
+      "approved_at": null
+    },
+    "cooldown_checked": false,
+    "compliance_checked": true,
+    "risk_score": 0.2,
+    "publish_attempts": 0,
+    "last_error": null
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "subreddit": "ImmigrationCanada",
+    "topic_fit": "high",
+    "language": "en",
+    "allow_self_promotion": false,
+    "allow_links": "limited",
+    "allow_consultant_posts": false,
+    "posting_style": "helpful_discussion",
+    "risk_level": "medium",
+    "rules_summary": [
+      "No direct advertising",
+      "No personal contact info",
+      "No misleading legal advice",
+      "No repetitive posts",
+      "Prefer general information and official-source references"
+    ],
+    "recommended_content_types": [
+      "faq_post",
+      "case_pattern_post",
+      "checklist_post",
+      "discussion_post"
+    ],
+    "blocked_content_types": [
+      "direct_sales_pitch",
+      "wechat_promotion",
+      "book_a_consultation_now",
+      "copy_paste_content"
+    ],
+    "daily_post_limit": 1,
+    "weekly_post_limit": 2,
+    "cooldown_hours": 48
+  },
+  {
+    "subreddit": "CanadaVisa",
+    "topic_fit": "high",
+    "language": "en",
+    "allow_self_promotion": false,
+    "allow_links": "limited",
+    "allow_consultant_posts": false,
+    "posting_style": "case_help_discussion",
+    "risk_level": "medium",
+    "rules_summary": [
+      "Avoid advertising or solicitation",
+      "Do not request private documents in public threads",
+      "Keep advice general and non-misleading",
+      "Avoid repetitive posts"
+    ],
+    "recommended_content_types": [
+      "faq_post",
+      "checklist_post",
+      "case_pattern_post",
+      "discussion_post"
+    ],
+    "blocked_content_types": [
+      "direct_sales_pitch",
+      "book_a_consultation_now",
+      "wechat_promotion",
+      "personal_contact_request"
+    ],
+    "daily_post_limit": 1,
+    "weekly_post_limit": 2,
+    "cooldown_hours": 48
+  },
+  {
+    "subreddit": "InternationalStudents",
+    "topic_fit": "medium",
+    "language": "en",
+    "allow_self_promotion": false,
+    "allow_links": "limited",
+    "allow_consultant_posts": false,
+    "posting_style": "student_experience_discussion",
+    "risk_level": "medium",
+    "rules_summary": [
+      "Keep posts relevant to student experiences",
+      "No direct advertising",
+      "No private contact information",
+      "Avoid country-specific legal claims without disclaimer"
+    ],
+    "recommended_content_types": [
+      "discussion_post",
+      "checklist_post",
+      "misconception_post"
+    ],
+    "blocked_content_types": [
+      "direct_sales_pitch",
+      "wechat_promotion",
+      "book_a_consultation_now",
+      "agency_advertisement"
+    ],
+    "daily_post_limit": 1,
+    "weekly_post_limit": 1,
+    "cooldown_hours": 72
+  },
+  {
+    "subreddit": "studyAbroad",
+    "topic_fit": "medium",
+    "language": "en",
+    "allow_self_promotion": false,
+    "allow_links": "limited",
+    "allow_consultant_posts": false,
+    "posting_style": "educational_discussion",
+    "risk_level": "medium",
+    "rules_summary": [
+      "Avoid promotional posts",
+      "Share broadly useful study-abroad information",
+      "Do not imply guaranteed admissions or visa outcomes",
+      "Use general guidance for immigration topics"
+    ],
+    "recommended_content_types": [
+      "faq_post",
+      "checklist_post",
+      "discussion_post"
+    ],
+    "blocked_content_types": [
+      "direct_sales_pitch",
+      "guaranteed_result_claim",
+      "personal_contact_request",
+      "copy_paste_content"
+    ],
+    "daily_post_limit": 1,
+    "weekly_post_limit": 1,
+    "cooldown_hours": 72
+  },
+  {
+    "subreddit": "gradadmissions",
+    "topic_fit": "low",
+    "language": "en",
+    "allow_self_promotion": false,
+    "allow_links": "limited",
+    "allow_consultant_posts": false,
+    "posting_style": "application_strategy_discussion",
+    "risk_level": "high",
+    "rules_summary": [
+      "Keep content focused on admissions and study planning",
+      "No visa consultancy promotion",
+      "Avoid immigration-law positioning",
+      "Do not post repetitive generic advice"
+    ],
+    "recommended_content_types": [
+      "discussion_post",
+      "checklist_post"
+    ],
+    "blocked_content_types": [
+      "immigration_sales_pitch",
+      "direct_sales_pitch",
+      "book_a_consultation_now",
+      "wechat_promotion"
+    ],
+    "daily_post_limit": 0,
+    "weekly_post_limit": 1,
+    "cooldown_hours": 168
+  }
+]

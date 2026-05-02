@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reddit Matrix Console</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">R</div>
+          <div>
+            <h1>Reddit Matrix</h1>
+            <p>Lead Intelligence Console</p>
+          </div>
+        </div>
+        <nav class="nav-tabs" aria-label="Sections">
+          <button class="tab is-active" data-tab="overview">总览</button>
+          <button class="tab" data-tab="accounts">账号矩阵</button>
+          <button class="tab" data-tab="pipeline">采集生产</button>
+          <button class="tab" data-tab="queue">发布队列</button>
+          <button class="tab" data-tab="content">内容池</button>
+        </nav>
+        <div class="policy-box">
+          <strong>v0.1 安全默认</strong>
+          <span>人工审核</span>
+          <span>手动点击 Post</span>
+          <span>不自动注册 Reddit</span>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <h2 id="viewTitle">总览</h2>
+            <p id="viewSubtitle">账号、线索、草稿和队列状态</p>
+          </div>
+          <button id="refreshBtn" class="icon-button" title="刷新">↻</button>
+        </header>
+
+        <section id="overview" class="view is-visible">
+          <div class="metrics-grid">
+            <article class="metric"><span>账号</span><strong id="metricAccounts">0</strong></article>
+            <article class="metric"><span>Subreddit</span><strong id="metricSubreddits">0</strong></article>
+            <article class="metric"><span>Topic</span><strong id="metricTopics">0</strong></article>
+            <article class="metric"><span>High Signal</span><strong id="metricHighSignals">0</strong></article>
+            <article class="metric"><span>Review Queue</span><strong id="metricQueue">0</strong></article>
+            <article class="metric"><span>Browser Ready</span><strong id="metricReady">0</strong></article>
+          </div>
+
+          <div class="split">
+            <section class="panel">
+              <div class="panel-head">
+                <h3>账号状态</h3>
+              </div>
+              <div id="accountStatusList" class="stack-list"></div>
+            </section>
+            <section class="panel">
+              <div class="panel-head">
+                <h3>Topic 覆盖</h3>
+              </div>
+              <div id="topicList" class="chip-list"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="accounts" class="view">
+          <div class="split">
+            <section class="panel">
+              <div class="panel-head">
+                <h3>创建账号档案</h3>
+              </div>
+              <form id="accountForm" class="form-grid">
+                <label>
+                  <span>Account ID</span>
+                  <input name="account_id" placeholder="reddit_study_02" required />
+                </label>
+                <label>
+                  <span>Reddit Username</span>
+                  <input name="username" placeholder="手动注册或已有用户名" />
+                </label>
+                <label>
+                  <span>Role</span>
+                  <input name="role" value="matrix_account" />
+                </label>
+                <label>
+                  <span>Status</span>
+                  <select name="status">
+                    <option value="paused">paused</option>
+                    <option value="active">active</option>
+                    <option value="disabled">disabled</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Daily Limit</span>
+                  <input name="daily_post_limit" type="number" min="0" max="2" value="1" />
+                </label>
+                <label>
+                  <span>Weekly Limit</span>
+                  <input name="weekly_post_limit" type="number" min="0" max="5" value="2" />
+                </label>
+                <label>
+                  <span>Cooldown Hours</span>
+                  <input name="cooldown_hours" type="number" min="24" value="48" />
+                </label>
+                <button class="primary full-row" type="submit">创建账号档案</button>
+              </form>
+            </section>
+            <section class="panel">
+              <div class="panel-head">
+                <h3>账号矩阵</h3>
+              </div>
+              <div id="accountCards" class="cards-grid"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="pipeline" class="view">
+          <section class="panel">
+            <div class="panel-head">
+              <h3>采集 → 分析 → 草稿 → 合规 → 队列</h3>
+            </div>
+            <form id="pipelineForm" class="runbar">
+              <label>
+                <span>Topic</span>
+                <select name="topic_id" id="topicSelect"></select>
+              </label>
+              <label>
+                <span>Limit</span>
+                <input name="limit" type="number" min="5" max="50" value="30" />
+              </label>
+              <button class="primary" type="submit">运行 Pipeline</button>
+            </form>
+            <pre id="runOutput" class="output">等待运行</pre>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h3>Subreddit 矩阵</h3>
+            </div>
+            <div id="subredditTable" class="data-table"></div>
+          </section>
+        </section>
+
+        <section id="queue" class="view">
+          <section class="panel">
+            <div class="panel-head">
+              <h3>发布队列</h3>
+            </div>
+            <div id="queueTable" class="data-table"></div>
+          </section>
+        </section>
+
+        <section id="content" class="view">
+          <section class="panel">
+            <div class="panel-head">
+              <h3>内容池</h3>
+            </div>
+            <div id="contentTable" class="data-table"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status"></div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
