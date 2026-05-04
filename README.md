@@ -75,6 +75,11 @@ The browser publisher only accepts tasks with `status: "browser_assist_ready"`. 
 9. Paste the published URL into the terminal prompt.
 10. Run comment monitoring and daily report generation.
 
+## Operations Docs
+
+- `docs/WORK_INSTRUCTIONS.md`: 工作说明书
+- `docs/OPENCLAW_SOP.md`: OpenClaw 执行 SOP
+
 ## Main Data Files
 
 - `data/reddit/raw-search-results.json`
